@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 
-body{
+body
+{
     font-family:cursive;
     display: grid;
     place-items: center;
@@ -12,7 +13,8 @@ body{
     background-image: linear-gradient(to right, #fc5c7d,#6a82fb);
 }
 
-.calc{
+.calc
+{
     width: 30%;
     height: 69%;
     background-color: transparent;
@@ -31,7 +33,8 @@ body{
     text-align: right;
 }
 
-.btn input[type='button']{
+.btn input[type='button']
+{
     width: 90px;
     padding: 2px;
     margin: 4px;
@@ -45,7 +48,8 @@ body{
     border-radius: 6px;
 }
 
-.btn input[type='button']:hover{
+.btn input[type='button']:hover
+{
     background-color: black;
     color: white;
 }
