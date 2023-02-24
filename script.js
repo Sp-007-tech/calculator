@@ -1,20 +1,24 @@
-function Solve(val){
+function Solve(val)
+{
     var v = document.getElementById('ans');
     v.value += val;
 }
 
-function Result(){
+function Result()
+{
     var v1 = document.getElementById('ans').value;
     var v2 = eval(v1);
     document.getElementById('ans').value = v2;
 }
 
-function Clear(){
+function Clear()
+{
     var input = document.getElementById('ans')
     input.value= '';
 }
 
-function Back(){
+function Back()
+{
     var back = document.getElementById('ans');
     back.vlaue= back.value.slice(0,-1);
 }
