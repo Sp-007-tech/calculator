@@ -19,6 +19,6 @@ function Clear()
 
 function Back()
 {
-    var back = document.getElementById('ans');
+    var back = document.getElementById('ans').value;
     back.vlaue= back.value.slice(0,-1);
 }
